@@ -3,5 +3,12 @@ spring:
     config:
       name: crawler-config
       profile: dev
-      uri: http://localhost:6662/
       label: master
+      discovery:
+        enabled: true
+        service-id: crawler-config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6660/eureka/
+
