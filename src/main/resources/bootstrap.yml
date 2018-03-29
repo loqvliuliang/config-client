@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: crawler-config
+      profile: dev
+      uri: http://localhost:6662/
+      label: master

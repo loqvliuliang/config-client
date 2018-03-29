@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: crawler-config-client
+server:
+  port: 6664
+
